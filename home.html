@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+    <link rel="stylesheet"type="text/css"href="./css/style.css">
+    <style>
+        p{
+            color: rgb(200, 237, 143);background-color: rgb(234, 11, 11) ; font-size: 20px;
+        }
+        div{
+            color: rgb(238, 151, 20);background-color: rgb(153, 211, 186) ; font-size: 20px;
+        }
+        #p2 {
+           color: darkgreen;background-color: rgb(153, 211, 186) ; font-size: 20px;
+        } 
+        .p3 {
+            color: rgb(58, 13, 235);background-color: rgb(198, 19, 120) ; font-size: 20px;
+        } 
+        p,div,h{
+           color: rgb(37, 224, 52);background-color: rgb(172, 77, 129) ; font-size: 20px;
+        }   
+        *{
+         color: rgb(14, 179, 194);background-color: rgb(134, 201, 174) ; font-size: 20px;
+        }      
+        
+        
+        
+    </style>
+</head>
+<body> 
+    <h2><a href="home.html"></a></h2>
+    <h1 style="color: deeppink;">HTML</h1>
+    <h2 style="color: rgb(126, 19, 193);">HTML</h2>
+    <h3 style="color: rgb(22, 191, 76);">HTML</h3>
+    <h4 style="color: rgb(179, 19, 62);">HTML</h4>
+    <h5 style="color: rgb(229, 11, 174);">HTML</h5>
+    <h6 style="color: rgb(126, 19, 193);">HTML</h6>
+    <p style="color: rgb(108, 177, 221);background-color: blueviolet ; font-size: 20px;"> hello hello hello hello <a name="bottom"></a> hello hello hello hello hello hello hello hello
+        hello hello hello hello hello hello  hello hello hello  hello hello hello hello 
+    </p>
+    <p style="text-align: center;color: cornflowerblue;"> hello hello hello hello <a name="bottom"></a> hello hello hello hello hello hello hello hello
+        hello hello hello hello hello hello  hello hello hello  hello hello hello hello 
+    </p>
+    <p id="p2"> hello hello hello hello <a name="bottom"></a> hello hello hello hello hello hello hello hello
+        hello hello hello hello hello hello  hello hello hello  hello hello hello hello 
+    </p>
+    <p class="p3"> hello hello hello hello <a name="bottom"></a> hello hello hello hello hello hello hello hello
+        hello hello hello hello hello hello  hello hello hello  hello hello hello hello 
+    </p>
+    
+    <div>hello hello hello hello hello hello <strong> hello hello hello hello hello </strong>hello
+    hello hello hello hello hello hello  hello <a href="top">top</a> hello  hello hello hello hello</div>
+
+<ol type="A">
+    <li>APPLE</li>
+    <li>ORANGE</li>
+    <li>MANGO</li>
+</ol>
+<ul type="circle">
+    <li>APPLE</li>
+    <li>ORANGE</li>
+    <li>MANGO</li>
+
+</ul>
+<table border="20">
+    <tr>
+        <th>s.no</th>
+        <th>name</th>
+        <th>place</th>
+        <th>college</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>sandra</td>
+        <td>ekm</td>
+        <td>cusat</td>
+    </tr>
+     <tr>
+        <td>2</td>
+        <td>sona</td>
+        <td>ekm</td>
+        <td>cusat</td>
+    </tr>
+
+     <tr>
+        <td>3</td>
+        <td>san</td>
+        <td>ekm</td>
+        <td>cusat</td>
+    </tr>
+</table>
+<div>
+       <div>
+        <div style="float: left;width: 15%;text-align: center;">s.no</div>
+        <div style="float: left;width: 15%;text-align: center;">name</div>
+        <div style="float: left;width: 15%;text-align: center;">place</div>
+        <div style="float: left;width: 15%;text-align: center;">college</div>
+       </div>
+</div>
+<div style="clear: both;"></div>
+       <div>
+        <div style="float: left;width: 15%;text-align: center;">1</div>
+        <div style="float: left;width: 15%;text-align: center;">anu</div>
+        <div style="float: left;width: 15%;text-align: center;">aluva</div>
+        <div style="float: left;width: 15%;text-align: center;">fisat</div>
+       </div>
+
+       <div style="clear: both;"></div>
+       <div>
+        <div style="float: left;width: 15%;text-align: center;">2</div>
+        <div style="float: left;width: 15%;text-align: center;">sona</div>
+        <div style="float: left;width: 15%;text-align: center;">aluva</div>
+        <div style="float: left;width: 15%;text-align: center;">fisat</div>
+       </div>
+        <div style="clear: both;"></div>
+        <form method="post" enctype="multipart/form-data" action="home.html">
+       <!-- <form method="post" enctype="multipart/form-data" action="home.html"> -->post for security,encrypt,fast,get is not secured
+        
+        <div>
+        <div style="float: left;width: 70px;">Name</div>
+        <div><input type="text"></div>
+        <div>&nbsp;</div>
+        </div>
+        <div>
+         <div style="float: left;width: 70px;">Address</div>
+        <div><textarea rows="5" cols="21"id="address" name="address">kochi</textarea>
+            <div>&nbsp;</div>
+        </div>
+        <div>
+            <div style="float: left; width: 70px;">Photo</div>
+            <div><input type="file"id="photo" name="photo"/></div>
+            <!-- <div><input type="file"id="photo" name="photo"/></div> -->here we can use multiple so we can choose muliple files
+            <div>&nbsp;</div>
+        </div> 
+        <div style="float: left;width: 70px;">email</div>
+        <div><input type="email"id="email" name="email"></div>
+        <div>&nbsp;</div>
+        <div style="float: left;width: 70px;">password</div>
+        <div><input type="password"id="password" name="password"></div>
+        <div>&nbsp;</div>
+        <div style="float: left;width: 70px;">age</div>
+        <div><select id="ag" name="age"
+            <option value= ""selected>please select</option>
+            <option value="less than 10">0-10</option>
+            <option>10-20</option>
+            <option>20-30</option>
+            <option>30-40</option>
+            <option>40</option>
+            </select>
+        </div>
+        <div>
+    
+            <div style="float: left; width: 70px">Gender</div>
+            <div style="float: left; width: 70px;">Male <input type="radio" id="gender" name="gender" value="male"/></div>
+            <div style="float: left; width: 90px;">Female <input type="radio" id="gender" name="gender" value="female"/></div>
+            <div style="float: left; width: 130px;">Transgender <input type="radio" id="gender" name="gender" value="transgender"/></div>
+            <div>&nbsp;</div><div>&nbsp;</div>
+        </div>
+        <div>
+            <div style="float: left; width: 70px">Hobbies</div>
+            <div style="float: left; width: 110px;">Drawing <input type="checkbox" id="hobbies[]" name="hobbies[]" value="drawing"checked/></div>
+            <div style="float: left; width: 90px;">Singing <input type="checkbox" id="hobbies[]" name="hobbies[]" value="singing"checked/></div>
+            <div style="float: left; width: 130px;">Dance <input type="checkbox" id="hobbies[]" name="hobbies[]" value="transgender"checked/></div>
+            <div>&nbsp;</div>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+             <button type="submit">Clear</button>
+        </div>
+        
+       </form>
+
+
+</body>
+</html>

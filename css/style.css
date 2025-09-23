@@ -1,0 +1,15 @@
+p{
+   color: rgb(200, 237, 143);background-color: rgb(230, 235, 78) ; font-size: 20px;
+         
+}
+div{
+    color: gold;
+}
+div {
+  padding: 25px 50px 75px 100px;
+}
+p {
+outline-color:green;
+padding: 5px;
+}
+p.dotted {outline-style: dotted;}
