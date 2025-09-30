@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #ebe6e6;
+      color: #56a1c5;
+    }
+    header {
+      background: #044c9f;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #06305a;
+    }
+    footer {
+      text-align: center;
+      background: #1d9ad8;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #131313;
+      border-radius: 5px;
+    }
+    button {
+      background: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #151515;
+    }
+  </style>
+</head>
+<body>
+  <!-- Introduction -->
+  <header>
+    <h1>Hi ,Iam Sandra</h1>
+    <p>Welcome to my website!</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#apply">Apply</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'am <b>Sandra</b>. I am passionate about coding, design, and building useful websites. 
+       I also give opportunities for others to collaborate with me.</p>
+  </section>
+  <!-- Projects -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li><b>Automatic Timetable Generator - Made in Django</li>
+        <li>Bulid a Petstore Website - HTML&CSS </li>
+      
+  </section>
+
+<!-- Application Form -->
+  <section id="apply">
+    <h2>Apply to Work With Me</h2>
+    <form onsubmit="alert('Thank you! Your application has been submitted.'); return false;">
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="role">Applying For:</label>
+        <select id="role" name="role">
+          <option>Internship</option>
+          <option>Job</option>
+          <option>Collaboration</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Why should I consider you?</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p><b>Email:</b> <a href="poulosesandra@gmail.com">poulosesandra@gmail.com</a></p>
+    <p><b>Phone:</b> +91 9946931911</p>
+    <p><b>Location: </b>Near Kakkanad Infopark,Ernakulam,kerala</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sandra. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
