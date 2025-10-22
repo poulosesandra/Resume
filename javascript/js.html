@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html>
 <body>
+ <h2>This is a heading</h2>
+
+<p id="demo2">This is a paragraph.</p>
+<p id="demo2">This is another paragraph.</p>
+<p id="demo3">If you click on me, I will disappear.</p>
+<p id="demo3">Click me away!</p>
+<p id="demo3">Click me too!</p>
+
+
+<button>Click me to hide paragraphs</button>
+
+
 
 <h2>What Can JavaScript Do?</h2>
-
-<p id="demo">JavaScript can show hidden HTML elements.</p>
+<p id="demo1">JavaScript can show hidden HTML elements.</p>
 
 <button type="button" onclick="test()">click me!</button>
 
 <script>
+    $(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
     function test(){
-        document.getElementById('demo').style.color="red";
-        document.getElementById('demo').style.fontSize="35px";
+        document.getElementById('demo1').style.color="red";
+        document.getElementById('demo1').style.fontSize="35px";
     }
+ 
+</script>
 </script>
 
 </body>
